@@ -280,3 +280,114 @@
 //   }
 // }
 // export default App;
+
+// import React from "react";
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>Welcome to {this.props.name}</h1>
+//         <p>
+//           <h4>Javatpoint is one of the best java training</h4>
+//         </p>
+//       </div>
+//     );
+//   }
+// }
+// export default App;
+
+// import React from "react";
+
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>Default Props Example</h1>
+//         <h3>Welcome to {this.props.name}</h3>
+//         <p>Javatpoint is one of the best Java training Program</p>
+//       </div>
+//     );
+//   }
+// }
+// App.defaultProps = {
+//   name: "JavaTpoint",
+// };
+
+// export default App;
+
+// import React from "react";
+
+// class App extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       name: "JavaTpoint",
+//     };
+//   }
+//   render() {
+//     return (
+//       <div>
+//         <JTP jtpProp={this.state.name} />
+//       </div>
+//     );
+//   }
+// }
+
+// class JTP extends React.Component {
+//   render() {
+//     return (
+//       <div>
+//         <h1>State & Props Example</h1>
+//         <h3>Welcome to {this.props.jtpProp}</h3>
+//         <p>JavatPoint is one of the best Java training institute</p>
+//       </div>
+//     );
+//   }
+// }
+
+// export default App;
+
+// import React from 'react'
+// import PropTypes from 'prop-types';
+
+// class App extends React.Component {
+//     render() {
+//         return (
+//             <div>
+//                 <h1>ReactJS Props validation example</h1>
+//                 <table>
+//                     <tr>
+//                         <th>Type</th>
+//                         <th>Value</th>
+//                         <th>Valid</th>
+//                     </tr>
+//                     <tr>
+//                         <td>Array</td>
+//         <td>{this.props.propArray}</td>
+//         <td>{this.props.propArray ? "true": "False"}</td>
+
+//                     </tr>
+//                     <tr>
+//                         <td>Boolean</td>
+//                         <td>{this.props.propBool ? "true": "False"}
+//                         </td>
+//                         <td>{this.props.propBool ? "true" : "False"}</td>
+//                     </tr>
+//                     <tr>
+//                         <td>Function</td>
+//                         <td>{this.props.propFunc(5)}</td>
+//                         <td>
+//                             {this.props.propFunc(5)? "true" : "False"}
+//                         </td>
+//                     </tr>
+//                     <tr>
+//                         <td>Number</td>
+//                         <td>{this.props.propNumber}</td>
+//                         <td></td>
+//                     </tr>
+//                 </table>
+//             </div>
+//         )
+//     }
+// }
